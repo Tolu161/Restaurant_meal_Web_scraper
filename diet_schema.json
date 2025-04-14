@@ -1,0 +1,106 @@
+
+{
+    "dietary_restrictions": {
+      "vegan": {
+        "exclude": ["meat", "fish", "dairy", "eggs", "honey", "gelatin", "minced meat", "beef", "pork", "chicken", "turkey", "lamb", "goat", "bacon", "sausage", "ham", "salami", "pepperoni", "seafood", "meats", "rabbit", "goat", "mutton", "beef heart", "meat stock", "salmon", "tuna", "cod", "halibut", "trout", "cod","bass", "tilapia", "catfish", "mackerel", "sardine", "anchovy", "clownfish", "pufferfish", "seabass", "seabream", "stingray", "hilsa fish", "hilsa", "mixed seafood", "dried fish", "raw fish", "salted fish", "salted cod", "whitebait", "hemingway", "haddock", "conger eel", "eel"],
+        "include": ["vegetables", "fruits", "nuts", "seeds", "legumes", "beans", "lentils", "peas", "chickpeas", "lentil", "pea", "chickpea", "lupin", "tofu"]
+    },
+      "gluten_intolerance": {
+        "exclude": ["wheat", "barley", "rye", "bread", "cake", "pasta", "beer", "cereal", "bun", "pita bread", "rye bread", "flatbread", "breadcrumbs", "oats", "oatmeal", "dough", "phyllo dough", "flour"]
+      },
+      "lactose_intolerance": {
+        "exclude": ["milk", "cheese", "butter", "cream", "yoghurt", "ghee", "ghee butter", "raclette cheese", "condensed milk", "kefir"]
+      },
+      "dairy_allergy": {
+        "exclude": ["milk", "cheese", "butter", "cream", "mayonnaise", "sour cream", "yogurt", "ice cream", "cream cheese", "whipped cream", "margarine", "mascarpone", "ricotta", "mozzarella", "cheddar", "parmesan", "salami", "cow milk", "mayo", "ghee", "ghee butter", "yoghurt", "raclette cheese", "condensed milk", "kefir"]
+      },
+      "egg_allergy": {
+        "exclude": ["egg", "egg yolk", "egg white", "mayonnaise", "margarine", "mascarpone", "boiled egg", "fried egg", "scrambled egg", "poached egg", "hard boiled egg", "soft boiled egg"]
+      },
+      "peanut_allergy": {
+        "exclude": ["peanut", "peanut butter", "peanuts"]
+      },
+      "shellfish_allergy": {
+        "exclude": ["shellfish", "crab", "lobster", "shrimp", "crustacean", "crayfish", "prawns", "king prawns"]
+      },
+      "mollusk_allergy": {
+        "exclude": ["mollusk", "mussels", "scallops", "squid", "octopus", "oyster", "clams", "abalone", "oysters", "snails", "prawns", "king prawns"]
+      },
+      "fish_allergy": {
+        "exclude": ["fish", "salmon", "tuna", "cod", "halibut", "trout", "cod","bass", "tilapia", "catfish", "mackerel", "sardine", "anchovy", "clownfish", "pufferfish", "seabass", "seabream", "stingray", "hilsa fish", "hilsa", "mixed seafood", "dried fish", "raw fish", "salted fish", "salted cod", "whitebait", "hemingway", "haddock", "conger eel", "eel" ]
+      },
+      "soy_allergy": {
+        "exclude": ["soy", "soy sauce", "soybean", "soybean oil", "soybean flour", "soybean meal"]
+      },
+      "legume_allergy": {
+        "exclude": ["legume", "legumes", "beans", "lentils", "peas", "chickpeas", "lentil", "pea", "chickpea", "lupin", "black beans", "pinto beans", "kidney beans", "black eyed peas"]
+      },
+      "nut_allergy": {
+        "exclude": ["almonds", "walnuts", "peanuts", "hazelnuts", "pecans", "cashews", "brazil nuts", "pistachios", "macadamia nuts", "pine nuts", "chestnuts", "pecan", "cashew", "brazil nut", "pistachio", "macadamia nut", "pine nut", "chestnut"]
+      },
+      "pescetarian": {
+        "exclude": ["meat", "beef", "pork", "chicken", "turkey", "lamb", "goat", "bacon", "sausage", "ham", "salami", "pepperoni", "minced meat", "dried meat", "salted meat", "rabbit", "goat", "mutton"],
+        "include": ["fish", "seafood"]
+      },
+      "vegetarian": {
+        "exclude": ["ground meat", "meat", "fish", "beef", "pork", "chicken", "turkey", "lamb", "goat", "bacon", "sausage", "ham", "salami", "pepperoni", "seafood", "meats", "minced meat", "dried meat", "salted meat", "rabbit", "goat", "mutton", "chorizo", "bacon", "beef heart", "meat stock", "salmon", "tuna", "cod", "halibut", "trout", "cod","bass", "tilapia", "catfish", "mackerel", "sardine", "anchovy", "clownfish", "pufferfish", "seabass", "seabream", "stingray", "hilsa fish", "hilsa", "mixed seafood", "dried fish", "raw fish", "salted fish", "salted cod", "whitebait", "hemingway", "haddock", "conger eel", "eel"],
+        "include": ["dairy", "eggs"]
+      },
+      "ketogenic": {
+        "exclude": ["bread", "pasta", "potatoes", "rice", "sugar", "dairy"],
+        "requirements": {"fat": "high", "carb": "low"}
+      },
+      "paleo": {
+        "exclude": ["dairy", "sugar", "dairy", "grains", "legumes", "sweetener", "trans fats", "artificial sweeteners", "vegetable oil"],
+        "include": ["meat", "fruits", "vegetables", "nuts"]
+      },
+      "kosher": {
+        "exclude": ["pork", "sausage", "ham", "poultry","shellfish"],
+        "include": ["kosher meat", "kosher dairy"]
+      },
+      "halal": {
+        "exclude": ["pork", "poultry","shellfish", "alcohol", "beer", "white wine", "red wine"],
+        "include": ["halal meat"]
+      }
+
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
